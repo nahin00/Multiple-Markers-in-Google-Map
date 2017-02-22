@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883B51C80B4ABFA9D44F2F10 /* Pods_Multiple_Markers_in_Google_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF017AA6EE748A75F7B8AC4E /* Pods_Multiple_Markers_in_Google_Map.framework */; };
 		BC5024E91E5D695800C19B8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5024E81E5D695800C19B8B /* AppDelegate.swift */; };
 		BC5024EB1E5D695800C19B8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5024EA1E5D695800C19B8B /* ViewController.swift */; };
 		BC5024EE1E5D695800C19B8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5024EC1E5D695800C19B8B /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11C67FA3706B71FD3AC19BDE /* Pods-Multiple Markers in Google Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiple Markers in Google Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Multiple Markers in Google Map/Pods-Multiple Markers in Google Map.debug.xcconfig"; sourceTree = "<group>"; };
+		5355055F32A005DAF6D03A59 /* Pods-Multiple Markers in Google Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiple Markers in Google Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Multiple Markers in Google Map/Pods-Multiple Markers in Google Map.release.xcconfig"; sourceTree = "<group>"; };
 		BC5024E51E5D695800C19B8B /* Multiple Markers in Google Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiple Markers in Google Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5024E81E5D695800C19B8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC5024EA1E5D695800C19B8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		BC5024EF1E5D695800C19B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5024F21E5D695800C19B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5024F41E5D695800C19B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF017AA6EE748A75F7B8AC4E /* Pods_Multiple_Markers_in_Google_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiple_Markers_in_Google_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883B51C80B4ABFA9D44F2F10 /* Pods_Multiple_Markers_in_Google_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57D2EAB6F9D3B904401D3141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11C67FA3706B71FD3AC19BDE /* Pods-Multiple Markers in Google Map.debug.xcconfig */,
+				5355055F32A005DAF6D03A59 /* Pods-Multiple Markers in Google Map.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC5024DC1E5D695800C19B8B = {
 			isa = PBXGroup;
 			children = (
 				BC5024E71E5D695800C19B8B /* Multiple Markers in Google Map */,
 				BC5024E61E5D695800C19B8B /* Products */,
+				57D2EAB6F9D3B904401D3141 /* Pods */,
+				EF5F20EFB1972D62A6E95BF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = "Multiple Markers in Google Map";
 			sourceTree = "<group>";
 		};
+		EF5F20EFB1972D62A6E95BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF017AA6EE748A75F7B8AC4E /* Pods_Multiple_Markers_in_Google_Map.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5024F71E5D695800C19B8B /* Build configuration list for PBXNativeTarget "Multiple Markers in Google Map" */;
 			buildPhases = (
+				9363210B9A011EA83836AD17 /* [CP] Check Pods Manifest.lock */,
 				BC5024E11E5D695800C19B8B /* Sources */,
 				BC5024E21E5D695800C19B8B /* Frameworks */,
 				BC5024E31E5D695800C19B8B /* Resources */,
+				044B64730E8ED9351524BD5A /* [CP] Embed Pods Frameworks */,
+				A1FD96B30DE23E49AF60A21B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044B64730E8ED9351524BD5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Multiple Markers in Google Map/Pods-Multiple Markers in Google Map-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9363210B9A011EA83836AD17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FD96B30DE23E49AF60A21B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Multiple Markers in Google Map/Pods-Multiple Markers in Google Map-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC5024E11E5D695800C19B8B /* Sources */ = {
@@ -258,11 +333,12 @@
 		};
 		BC5024F81E5D695800C19B8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C67FA3706B71FD3AC19BDE /* Pods-Multiple Markers in Google Map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Multiple Markers in Google Map/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.Multiple-Markers-in-Google-Map";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahinahmed.Multiple-Markers-in-Google-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,11 +346,12 @@
 		};
 		BC5024F91E5D695800C19B8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5355055F32A005DAF6D03A59 /* Pods-Multiple Markers in Google Map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Multiple Markers in Google Map/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.siliconorchard.Multiple-Markers-in-Google-Map";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahinahmed.Multiple-Markers-in-Google-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +376,7 @@
 				BC5024F91E5D695800C19B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
